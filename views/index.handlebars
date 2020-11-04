@@ -1,0 +1,28 @@
+<h2>Devoured</h2>
+<ul>
+  {{#each burgers}}
+    {{#if devoured}}
+      <li>
+          {{ burger_name }}
+      </li>
+    {{/if}}
+  {{/each}}
+</ul>
+
+<h2>Not Devoured</h2>
+<ul>
+  {{#each burgers}}
+    {{#unless devoured}}
+      <li>
+          {{ burger_name }}
+      </li>
+    {{/unless}}
+  {{/each}}
+</ul>
+
+<form action="/api/burgers" method="POST">
+    <input name="burger_name"></input>
+    <button class="btn" type="submit">Submit</button>
+</form>
+
+
