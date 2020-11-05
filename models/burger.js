@@ -24,6 +24,12 @@ var burger = {
       cb(res);
     });
   }
+
+  // read: function(condition, cb) {
+  //   orm.read("burgers", condition, function(res) {
+  //     cb(res);
+  //   });
+  // }
 };
 
 // Export the database functions for the controller (catsController.js).

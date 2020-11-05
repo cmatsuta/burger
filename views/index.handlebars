@@ -1,4 +1,4 @@
-<h2>Devoured</h2>
+<h2>Burgers Have Been Eaten!</h2>
 <ul>
   {{#each burgers}}
     {{#if devoured}}
@@ -9,7 +9,7 @@
   {{/each}}
 </ul>
 
-<h2>Not Devoured</h2>
+<h2>Burgers To Be Eaten!</h2>
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
@@ -22,7 +22,9 @@
 
 <form action="/api/burgers" method="POST">
     <input name="burger_name"></input>
-    <button class="btn" type="submit">Submit</button>
+    <button class="btn" type="submit">Devour It</button>
 </form>
+
+<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 
 

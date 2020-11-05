@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 5px;
+}
+
+footer { 
+    margin-top: auto; 
+}
+
+body { 
+        font-family: Arial, 'Helvetica Neue', Helvetica,  sans-serif;
+        font-size: 12px;
+        line-height: 10px;
+        color: #353333;
+        background-color: wheat;
+        width: 100%;
+        max-width: 960px;
+        margin: 10px;
+        clear: both;
+  }
+
+header {
+    width: 100%;
+    align-content: center;
+}
+
+footer {
+    clear: both;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+form {
+   float: left;
+   clear: both;
+}
+
+
+
+h2 {
+       color:gray;
+       font-family: Georgia, Times, "Times New Roman", serif;
+       font-weight: 700;
+       font-size: 15px;
+}
+
+ul, li {
+    font-size: 15px;
+    margin: 5px;
+    color: teal;
+}
+
+button {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: teal;
+    color: white;
+    border-style: groove;
+    border-radius: 3px;
+    border-width: 2px;
+    margin: 3px;
+}
