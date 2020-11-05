@@ -29,9 +29,9 @@ router.post("/api/burgers", function(req, res) {
 
 //   console.log("condition", condition);
 
-//   cat.update(
+//   burger.update(
 //     {
-//       sleepy: req.body.sleepy
+//       devoured: req.body.devoured
 //     },
 //     condition,
 //     function(result) {
